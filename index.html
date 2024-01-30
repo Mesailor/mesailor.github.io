@@ -1,18 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New page</title>
+    <link rel="stylesheet" href="./index.css">
+    <title>Алексей Никольский</title>
 </head>
+
 <body>
-    <div id="root"></div>
-    <script>
-        let rootElement = document.getElementById('root');
-        let element = document.createElement('div');
-        element.textContent = "I created through JavaScript!";
-        element.className = "container";
-        rootElement.appendChild(element);
-    </script>
+    <header>
+        <p>Алексей Никольский</p>
+        <p>Frontend Developer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="">Резюме</a></li>
+            <li><a href="">Портфолио</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="resume">
+            <article class="about-me">
+                <img src="./static/my_photo" alt="Алексей Никольский">
+                <div>
+                    <h1>Алексей Никольский</h1>
+                    <h3>Frontend Developer</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, hic ut? Qui corrupti fugiat
+                        cumque alias natus similique quod corporis sint, quia deleniti ratione aut beatae nesciunt
+                        tenetur perspiciatis facilis.
+                    </p>
+                </div>
+            </article>
+            <div class="skills">
+                <article class="skills">
+                    <h3>Образование</h3>
+                    <h4>Санкт-Петербургский Университет Гражданской Авиации</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla unde aperiam sit id labore?
+                        Reprehenderit voluptate, asperiores laudantium voluptates voluptas explicabo blanditiis velit
+                        voluptatum maxime consequatur magni esse enim? Eius.
+                    </p>
+                    <h3>Навыки</h3>
+                    <ul>
+                        <li>
+                            <h4>Навык</h4>
+                            <p>Да, я умею этот навык, а что?</p>
+                        </li>
+                        <li>
+                            <h4>Еще навык</h4>
+                            <p>Всего два навыка? Пока что да!</p>
+                        </li>
+                    </ul>
+                </article>
+                <article class="experience">
+                    <h3>Опыт работы</h3>
+                    <ol>
+                        <li>
+                            <h4>Itransition</h4>
+                            <p>Позиция: стажер Frontend Developer</p>
+                        </li>
+                    </ol>
+                </article>
+            </div>
+        </section>
+
+        <section class="portfolio">
+
+        </section>
+    </main>
+
+    <footer>
+        Связь со мной: tel email etc.
+    </footer>
 </body>
+
 </html>
