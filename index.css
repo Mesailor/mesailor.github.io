@@ -50,11 +50,55 @@ article.about-me p {
     font-size: 1.8em;
 }
 
-div.skills {
+div.professional {
+    font-size: 1.2rem;
     display: flex;
     justify-content: space-between;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+div.professional article {
+    padding: 2em 1em;
+}
+
+div.professional div {
+    padding-bottom: 2em;
+}
+
+div.professional h3 {
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: 0.2em;
+    margin-bottom: 0.4em;
+}
+
+div.professional strong {
+    font-size: 1.1em;
+}
+
+div.professional li {
+    margin: 0 1em;
+}
+
+article.knowledge {
+    width: 100%;
+    border-right: 1px solid black;
 }
 
 article.experience {
     width: 100%;
+    border-left: 1px solid black;
+}
+
+article.experience > ul > li{
+    margin-bottom: 2em;
+}
+
+article.experience span.interval {
+    font-size: 0.9em;
+}
+
+article.experience strong.company {
+    font-size: 1.3em;
 }
