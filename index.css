@@ -102,3 +102,19 @@ article.experience span.interval {
 article.experience strong.company {
     font-size: 1.3em;
 }
+
+footer {
+    font-size: 1.2em;
+    padding: 3em 0 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer img.tg-icon {
+    width: 1.5em;
+    height: 1.5em;
+}
