@@ -43,11 +43,12 @@
       "type": "registry:block",
       "title": "Open in v0 Basic",
       "description": "A basic chat example block for the Open in v0 button.",
-      "registryDependencies": [
-        "https://mesailor.github.io/r/chat.json",
-        "separator"
+      "registryDependencies": ["avatar", "textarea", "separator", "input"],
+      "dependencies": [
+        "@radix-ui/react-avatar",
+        "@radix-ui/react-slot",
+        "class-variance-authority"
       ],
-      "dependencies": [],
       "files": [
         {
           "path": "registry/new-york/blocks/open-in-v0-basic/page.tsx",
@@ -73,6 +74,41 @@
           "path": "registry/new-york/blocks/open-in-v0-basic/data/messages.ts",
           "type": "registry:file",
           "target": "data/examples/messages.ts"
+        },
+        {
+          "path": "registry/new-york/chat/chat.tsx",
+          "type": "registry:file",
+          "target": "components/chat/chat.tsx"
+        },
+        {
+          "path": "registry/new-york/chat/chat-header.tsx",
+          "type": "registry:file",
+          "target": "components/chat/chat-header.tsx"
+        },
+        {
+          "path": "registry/new-york/chat/chat-messages.tsx",
+          "type": "registry:file",
+          "target": "components/chat/chat-messages.tsx"
+        },
+        {
+          "path": "registry/new-york/chat/chat-toolbar.tsx",
+          "type": "registry:file",
+          "target": "components/chat/chat-toolbar.tsx"
+        },
+        {
+          "path": "registry/new-york/chat/chat-event.tsx",
+          "type": "registry:file",
+          "target": "components/chat/chat-event.tsx"
+        },
+        {
+          "path": "registry/new-york/ui/button.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx"
+        },
+        {
+          "path": "src/components/ui/input-group.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/input-group.tsx"
         }
       ]
     }
