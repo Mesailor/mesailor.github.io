@@ -43,9 +43,10 @@
       "type": "registry:block",
       "title": "Open in v0 Basic",
       "description": "A basic chat example block for the Open in v0 button.",
-      "registryDependencies": ["avatar", "textarea", "separator", "input"],
+      "registryDependencies": [],
       "dependencies": [
         "@radix-ui/react-avatar",
+        "@radix-ui/react-separator",
         "@radix-ui/react-slot",
         "class-variance-authority"
       ],
@@ -77,27 +78,27 @@
         },
         {
           "path": "registry/new-york/chat/chat.tsx",
-          "type": "registry:file",
+          "type": "registry:component",
           "target": "components/chat/chat.tsx"
         },
         {
           "path": "registry/new-york/chat/chat-header.tsx",
-          "type": "registry:file",
+          "type": "registry:component",
           "target": "components/chat/chat-header.tsx"
         },
         {
           "path": "registry/new-york/chat/chat-messages.tsx",
-          "type": "registry:file",
+          "type": "registry:component",
           "target": "components/chat/chat-messages.tsx"
         },
         {
           "path": "registry/new-york/chat/chat-toolbar.tsx",
-          "type": "registry:file",
+          "type": "registry:component",
           "target": "components/chat/chat-toolbar.tsx"
         },
         {
           "path": "registry/new-york/chat/chat-event.tsx",
-          "type": "registry:file",
+          "type": "registry:component",
           "target": "components/chat/chat-event.tsx"
         },
         {
@@ -109,6 +110,26 @@
           "path": "src/components/ui/input-group.tsx",
           "type": "registry:ui",
           "target": "components/ui/input-group.tsx"
+        },
+        {
+          "path": "src/components/ui/avatar.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/avatar.tsx"
+        },
+        {
+          "path": "src/components/ui/textarea.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/textarea.tsx"
+        },
+        {
+          "path": "src/components/ui/separator.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/separator.tsx"
+        },
+        {
+          "path": "src/components/ui/input.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx"
         }
       ]
     }
