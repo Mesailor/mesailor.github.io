@@ -9,7 +9,7 @@
     "class-variance-authority"
   ],
   "registryDependencies": [
-    "https://https://mesailor.github.io/r/chat.json",
+    "https://mesailor.github.io/r/chat.json",
     "separator",
     "input-group"
   ],
