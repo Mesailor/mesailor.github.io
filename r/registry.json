@@ -57,22 +57,22 @@
         {
           "path": "registry/new-york/blocks/open-in-v0-basic/components/primary-message.tsx",
           "type": "registry:component",
-          "target": "app/open-in-v0-basic/components/primary-message.tsx"
+          "target": "components/examples/primary-message.tsx"
         },
         {
           "path": "registry/new-york/blocks/open-in-v0-basic/components/additional-message.tsx",
           "type": "registry:component",
-          "target": "app/open-in-v0-basic/components/additional-message.tsx"
+          "target": "components/examples/additional-message.tsx"
         },
         {
           "path": "registry/new-york/blocks/open-in-v0-basic/components/date-item.tsx",
           "type": "registry:component",
-          "target": "app/open-in-v0-basic/components/date-item.tsx"
+          "target": "components/examples/date-item.tsx"
         },
         {
           "path": "registry/new-york/blocks/open-in-v0-basic/data/messages.ts",
           "type": "registry:file",
-          "target": "app/open-in-v0-basic/data/messages.ts"
+          "target": "data/examples/messages.ts"
         }
       ]
     }
