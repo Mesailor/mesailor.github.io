@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "shadcn-chat",
-  "homepage": "https://shadcn-chat.vercel.app",
+  "homepage": "https://mesailor.github.io",
   "items": [
     {
       "name": "chat",
@@ -44,7 +44,7 @@
       "title": "Open in v0 Basic",
       "description": "A basic chat example block for the Open in v0 button.",
       "registryDependencies": [
-        "https://shadcn-chat.vercel.app/r/chat.json",
+        "https://mesailor.github.io/r/chat.json",
         "separator"
       ],
       "dependencies": [],

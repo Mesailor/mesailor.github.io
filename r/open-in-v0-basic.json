@@ -5,7 +5,7 @@
   "description": "A basic chat example block for the Open in v0 button.",
   "dependencies": [],
   "registryDependencies": [
-    "https://shadcn-chat.vercel.app/r/chat.json",
+    "https://mesailor.github.io/r/chat.json",
     "separator"
   ],
   "files": [
