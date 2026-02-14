@@ -43,31 +43,17 @@
       "type": "registry:block",
       "title": "Open in v0 Basic",
       "description": "A basic chat example block for the Open in v0 button.",
-      "registryDependencies": [],
+      "registryDependencies": [
+        "https://shadcn-chat.vercel.app/r/chat.json",
+        "separator",
+        "input-group"
+      ],
       "dependencies": [
-        "@radix-ui/react-avatar",
         "@radix-ui/react-separator",
         "@radix-ui/react-slot",
-        "class-variance-authority",
-        "clsx",
-        "tailwind-merge"
+        "class-variance-authority"
       ],
       "files": [
-        {
-          "path": "registry/new-york/blocks/open-in-v0-basic/layout.tsx",
-          "type": "registry:file",
-          "target": "app/layout.tsx"
-        },
-        {
-          "path": "src/app/globals.css",
-          "type": "registry:file",
-          "target": "app/globals.css"
-        },
-        {
-          "path": "src/lib/utils.ts",
-          "type": "registry:lib",
-          "target": "lib/utils.ts"
-        },
         {
           "path": "registry/new-york/blocks/open-in-v0-basic/page.tsx",
           "type": "registry:page",
@@ -92,61 +78,6 @@
           "path": "registry/new-york/blocks/open-in-v0-basic/data/messages.ts",
           "type": "registry:file",
           "target": "data/examples/messages.ts"
-        },
-        {
-          "path": "registry/new-york/chat/chat.tsx",
-          "type": "registry:component",
-          "target": "components/chat/chat.tsx"
-        },
-        {
-          "path": "registry/new-york/chat/chat-header.tsx",
-          "type": "registry:component",
-          "target": "components/chat/chat-header.tsx"
-        },
-        {
-          "path": "registry/new-york/chat/chat-messages.tsx",
-          "type": "registry:component",
-          "target": "components/chat/chat-messages.tsx"
-        },
-        {
-          "path": "registry/new-york/chat/chat-toolbar.tsx",
-          "type": "registry:component",
-          "target": "components/chat/chat-toolbar.tsx"
-        },
-        {
-          "path": "registry/new-york/chat/chat-event.tsx",
-          "type": "registry:component",
-          "target": "components/chat/chat-event.tsx"
-        },
-        {
-          "path": "registry/new-york/ui/button.tsx",
-          "type": "registry:ui",
-          "target": "components/ui/button.tsx"
-        },
-        {
-          "path": "src/components/ui/input-group.tsx",
-          "type": "registry:ui",
-          "target": "components/ui/input-group.tsx"
-        },
-        {
-          "path": "src/components/ui/avatar.tsx",
-          "type": "registry:ui",
-          "target": "components/ui/avatar.tsx"
-        },
-        {
-          "path": "src/components/ui/textarea.tsx",
-          "type": "registry:ui",
-          "target": "components/ui/textarea.tsx"
-        },
-        {
-          "path": "src/components/ui/separator.tsx",
-          "type": "registry:ui",
-          "target": "components/ui/separator.tsx"
-        },
-        {
-          "path": "src/components/ui/input.tsx",
-          "type": "registry:ui",
-          "target": "components/ui/input.tsx"
         }
       ]
     }
