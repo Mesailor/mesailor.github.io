@@ -10,7 +10,7 @@
     "emoji-picker-react"
   ],
   "registryDependencies": [
-    "https://shadcn-chat.vercel.app/r/chat.json",
+    "https://mesailor.github.io/r/chat.json",
     "separator",
     "input-group",
     "sidebar",
