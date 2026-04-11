@@ -63,12 +63,27 @@
         "class-variance-authority",
         "emoji-picker-react"
       ],
-      "files": [
-        {
-          "path": "registry/new-york/blocks/chat-basic/chat-basic.css",
-          "type": "registry:file",
-          "target": "app/chat/chat-basic.css"
+      "css": {
+        "@keyframes message-highlight": {
+          "0%, 60%": {
+            "background-color": "var(--accent)"
+          },
+          "100%": {
+            "background-color": "transparent"
+          }
         },
+        "@utility animate-message-highlight": {
+          "animation": "message-highlight 3s ease-out forwards"
+        },
+        "@utility scrollbar-hidden": {
+          "-ms-overflow-style": "none",
+          "scrollbar-width": "none",
+          "&::-webkit-scrollbar": {
+            "display": "none"
+          }
+        }
+      },
+      "files": [
         {
           "path": "registry/new-york/blocks/chat-basic/page.tsx",
           "type": "registry:page",
