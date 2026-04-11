@@ -86,37 +86,37 @@
         },
         {
           "path": "registry/new-york/blocks/chat-basic/hooks/messages.ts",
-          "type": "registry:file",
+          "type": "registry:hook",
           "target": "hooks/chat/messages.ts"
         },
         {
           "path": "registry/new-york/blocks/chat-basic/hooks/message-reactions.ts",
-          "type": "registry:file",
+          "type": "registry:hook",
           "target": "hooks/chat/message-reactions.ts"
         },
         {
           "path": "registry/new-york/blocks/chat-basic/hooks/message-search.ts",
-          "type": "registry:file",
+          "type": "registry:hook",
           "target": "hooks/chat/message-search.ts"
         },
         {
           "path": "registry/new-york/blocks/chat-basic/hooks/message-actions.ts",
-          "type": "registry:file",
+          "type": "registry:hook",
           "target": "hooks/chat/message-actions.ts"
         },
         {
           "path": "registry/new-york/blocks/chat-basic/hooks/profile.ts",
-          "type": "registry:file",
+          "type": "registry:hook",
           "target": "hooks/chat/profile.ts"
         },
         {
           "path": "registry/new-york/blocks/chat-basic/hooks/chat-sidebar.ts",
-          "type": "registry:file",
+          "type": "registry:hook",
           "target": "hooks/chat/chat-sidebar.ts"
         },
         {
           "path": "registry/new-york/blocks/chat-basic/hooks/use-is-wider.ts",
-          "type": "registry:file",
+          "type": "registry:hook",
           "target": "hooks/use-is-wider.ts"
         },
         {
