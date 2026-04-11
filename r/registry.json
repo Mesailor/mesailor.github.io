@@ -85,34 +85,34 @@
           "target": "data/mock/mock-api.ts"
         },
         {
-          "path": "registry/new-york/blocks/chat-basic/hooks/messages.ts",
+          "path": "registry/new-york/blocks/chat-basic/hooks/use-messages.ts",
           "type": "registry:hook",
-          "target": "hooks/chat/messages.ts"
+          "target": "hooks/chat/use-messages.ts"
         },
         {
-          "path": "registry/new-york/blocks/chat-basic/hooks/message-reactions.ts",
+          "path": "registry/new-york/blocks/chat-basic/hooks/use-message-reactions.ts",
           "type": "registry:hook",
-          "target": "hooks/chat/message-reactions.ts"
+          "target": "hooks/chat/use-message-reactions.ts"
         },
         {
-          "path": "registry/new-york/blocks/chat-basic/hooks/message-search.ts",
+          "path": "registry/new-york/blocks/chat-basic/hooks/use-message-search.ts",
           "type": "registry:hook",
-          "target": "hooks/chat/message-search.ts"
+          "target": "hooks/chat/use-message-search.ts"
         },
         {
-          "path": "registry/new-york/blocks/chat-basic/hooks/message-actions.ts",
+          "path": "registry/new-york/blocks/chat-basic/hooks/use-message-actions.ts",
           "type": "registry:hook",
-          "target": "hooks/chat/message-actions.ts"
+          "target": "hooks/chat/use-message-actions.ts"
         },
         {
-          "path": "registry/new-york/blocks/chat-basic/hooks/profile.ts",
+          "path": "registry/new-york/blocks/chat-basic/hooks/use-profile.ts",
           "type": "registry:hook",
-          "target": "hooks/chat/profile.ts"
+          "target": "hooks/chat/use-profile.ts"
         },
         {
-          "path": "registry/new-york/blocks/chat-basic/hooks/chat-sidebar.ts",
+          "path": "registry/new-york/blocks/chat-basic/hooks/use-chat-sidebar.ts",
           "type": "registry:hook",
-          "target": "hooks/chat/chat-sidebar.ts"
+          "target": "hooks/chat/use-chat-sidebar.ts"
         },
         {
           "path": "registry/new-york/blocks/chat-basic/hooks/use-is-wider.ts",
