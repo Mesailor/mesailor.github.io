@@ -65,6 +65,11 @@
       ],
       "files": [
         {
+          "path": "registry/new-york/blocks/chat-basic/chat-basic.css",
+          "type": "registry:file",
+          "target": "app/chat/chat-basic.css"
+        },
+        {
           "path": "registry/new-york/blocks/chat-basic/page.tsx",
           "type": "registry:page",
           "target": "app/chat/page.tsx"
